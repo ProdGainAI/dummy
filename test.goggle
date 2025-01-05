@@ -1,0 +1,7 @@
+! name: Exclude Research Sites
+! description: Rerank results to remove pages hosted on mordorintelligence.com or grandviewresearch.com
+! public: true
+! author: Goggles 101
+
+$discard,site=mordorintelligence.com
+$discard,site=grandviewresearch.com
