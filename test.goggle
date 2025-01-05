@@ -1,7 +1,16 @@
 ! name: Exclude Research Sites
 ! description: Rerank results to remove pages hosted on mordorintelligence.com or grandviewresearch.com
-! public: true
+! public: false
 ! author: Goggles 101
 
 $discard,site=mordorintelligence.com
 $discard,site=grandviewresearch.com
+$discard,site=statista.com
+$discard,site=instagram.com
+$discard,site=facebook.com
+$discard,site=fortunebusinessinsights.com
+$discard,site=imarcgroup.com
+$discard,site=fortunebusinessinsights.com
+$discard,site=alliedmarketresearch.com
+$discard,site=globenewswire.com
+$discard,site=thebusinessresearchcompany.com
