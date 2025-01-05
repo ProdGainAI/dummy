@@ -14,3 +14,7 @@ $discard,site=fortunebusinessinsights.com
 $discard,site=alliedmarketresearch.com
 $discard,site=globenewswire.com
 $discard,site=thebusinessresearchcompany.com
+$discard,site=prnewswire.com
+$discard,site=businesswire.com
+$discard,site=marketsandmarkets.com
+$discard,site=marketwatch.com
