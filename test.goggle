@@ -1,5 +1,5 @@
-! name: Exclude Research Sites
-! description: Rerank results to remove pages hosted on mordorintelligence.com or grandviewresearch.com
+! name: Exclude Research Sites & Social Media
+! description: Rerank results to remove market research reports, press releases, and social media
 ! public: false
 ! author: Goggles 101
 
@@ -10,7 +10,6 @@ $discard,site=instagram.com
 $discard,site=facebook.com
 $discard,site=fortunebusinessinsights.com
 $discard,site=imarcgroup.com
-$discard,site=fortunebusinessinsights.com
 $discard,site=alliedmarketresearch.com
 $discard,site=globenewswire.com
 $discard,site=thebusinessresearchcompany.com
@@ -18,3 +17,27 @@ $discard,site=prnewswire.com
 $discard,site=businesswire.com
 $discard,site=marketsandmarkets.com
 $discard,site=marketwatch.com
+$discard,site=technavio.com
+$discard,site=researchnester.com
+$discard,site=marketresearchfuture.com
+$discard,site=gminsights.com
+$discard,site=emarketer.com
+$discard,site=zionmarketresearch.com
+$discard,site=transparencymarketresearch.com
+$discard,site=360researchreports.com
+$discard,site=globalmarketinsights.com
+$discard,site=persistence.com
+$discard,site=qyresearch.com
+$discard,site=hexaresearch.com
+$discard,site=databridgemarketresearch.com
+$discard,site=coherence.com
+$discard,site=juniperresearch.com
+$discard,site=abiresearch.com
+$discard,site=euromonitor.com
+$discard,site=mintel.com
+$discard,site=bccresearch.com
+$discard,site=ibisworld.com
+$discard,site=pewresearch.org
+$discard,site=lexisnexis.com
+$discard,site=woodsandservices.com
+$discard,site=luxresearchinc.com
